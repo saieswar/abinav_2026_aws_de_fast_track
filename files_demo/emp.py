@@ -23,13 +23,3 @@ print("Data Processed Succesfully")
 
 # take patients data (multiple patients)
 # disease = 1) cancer, 2) fever, 3) cough
-
-patients folder - pat1.json , pat2.json, pat3.json -- each file with 10 records
--> name, age, address:[street: "hitech city", state: "ts", country:"ind"], disease:"cancer",
-
-
-output_folder
-    cancer.json # data in one json 
-
-    folder -> ind = ind.json 
-    folder -> us = us.json 
