@@ -23,3 +23,4 @@ print("Data Processed Succesfully")
 
 # take patients data (multiple patients)
 # disease = 1) cancer, 2) fever, 3) cough
+
