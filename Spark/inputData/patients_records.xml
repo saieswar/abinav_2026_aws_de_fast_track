@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<healthcareRecords xmlns:hc="http://example.com/healthcare">
+
+    <hc:record recordId="REC2001">
+        <hc:hospitalId>HOSP101</hc:hospitalId>
+
+        <hc:patient>
+            <hc:patientId>PAT2001</hc:patientId>
+            <hc:name>
+                <hc:firstName>Ravi</hc:firstName>
+                <hc:lastName>Kumar</hc:lastName>
+            </hc:name>
+            <hc:age>35</hc:age>
+            <hc:gender>Male</hc:gender>
+            <hc:address>
+                <hc:city>Hyderabad</hc:city>
+                <hc:state>Telangana</hc:state>
+            </hc:address>
+        </hc:patient>
+
+        <hc:visit>
+            <hc:visitId>VIS2001</hc:visitId>
+            <hc:visitDate>2026-11-20</hc:visitDate>
+            <hc:department>Cardiology</hc:department>
+            <hc:consultationFee>800</hc:consultationFee>
+
+            <hc:doctor doctorId="DOC101">
+                <hc:name>Dr. Suresh</hc:name>
+                <hc:specialization>Cardiologist</hc:specialization>
+            </hc:doctor>
+        </hc:visit>
+
+        <hc:diagnoses>
+            <hc:diagnosis code="I10">
+                <hc:condition>Hypertension</hc:condition>
+                <hc:severity>Moderate</hc:severity>
+            </hc:diagnosis>
+            <hc:diagnosis code="E11">
+                <hc:condition>Diabetes</hc:condition>
+                <hc:severity>Mild</hc:severity>
+            </hc:diagnosis>
+        </hc:diagnoses>
+    </hc:record>
+
+</healthcareRecords>
